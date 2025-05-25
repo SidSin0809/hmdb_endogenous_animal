@@ -1,0 +1,10 @@
+# --- Core runtime dependencies ---
+requests>=2.31.0        # robust HTTP client with retry hooks
+tqdm>=4.66.0            # nice progress bar (script auto-detects)
+
+# --- Optional HTML parsing ---
+# The current version works with a simple regex, but if you’d like
+# a more robust parser for future HMDB layout changes, uncomment
+# one (or both) of the lines below.
+# beautifulsoup4>=4.12.0
+# lxml>=4.9.0
