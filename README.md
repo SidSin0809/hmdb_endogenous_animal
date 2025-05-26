@@ -20,7 +20,7 @@ python -m pip install -r requirements.txt     # requests tqdm
 # 3. Run
 python hmdb_endogenous_animal.py \
        hmdb_metabolites.xml \
-       --workers 30 \
+       --workers 8 \
        --out endogenous_animal.tsv \
        --resume
 
